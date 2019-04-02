@@ -20,13 +20,9 @@ To search for a pattern in output stream(grep) : `ls | grep tp`
 
 Simple Terminal
 
-erase whole line: `CTRL + u`
-
 backspase: `CTRL + h`
 
 reverse backspace : `CTRL + d`
-
-tab: `CTRL + i`
 
 bell terminal sound: `CTRL + g`
 
@@ -39,4 +35,19 @@ pause the terminal text flow: `CTRL + s`
 resume the terminal text flow: `CTRL + q`
 
 delete a word: `ALT + backspace`
+
+Yank/Paste previously erased string : `ctrl+y`
+
+Move one word to the left : `alt+b`
+
+Move one word to the right : `alt+f` 
+
+Move to beginning of line : `ctrl+a` 
+
+Move to end of line : `ctrl+e`
+
+Stop execution of the current job: `ctrl+z`
+
+Paste contents of clipboard at cursor : `shift+ins`
+
 
