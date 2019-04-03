@@ -13,7 +13,7 @@
 GIT ZOO of working area :
 
 
-
+```
 Remote Repo(name : origin)        Remote Repo(name : public)
                    \             /
                     \           /           
@@ -23,6 +23,7 @@ Remote Repo(name : origin)        Remote Repo(name : public)
             Stash             Index(Staging Area)
                 \               /
                     Working Area
+```
 
 Working Area: Local Work Area
 Index : Staging area where files go after we use `add` command
