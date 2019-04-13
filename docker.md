@@ -1,5 +1,6 @@
 # Docker
 
+- Build a image from DockerFile: `docker build -f Dockerfile .`
 - List all docker process/containers: `docker ps -a`
 - List images: `docker images`
 - List docker volumes: `docker volume ls`
@@ -25,7 +26,3 @@
 - docker containers logs with follow as described in compose file: `docker-compose -f docker-compose-file.yaml logs -f`
 - docker containers remove as described in compose file: `docker-compose -f docker-compose-file.yaml down`
 - docker containers remove along with volumes as described in compose file: `docker-compose -f docker-compose-file.yaml down -v`
-
-
-
-find . -name *.env
