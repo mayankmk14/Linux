@@ -26,3 +26,5 @@
 - docker containers logs with follow as described in compose file: `docker-compose -f docker-compose-file.yaml logs -f`
 - docker containers remove as described in compose file: `docker-compose -f docker-compose-file.yaml down`
 - docker containers remove along with volumes as described in compose file: `docker-compose -f docker-compose-file.yaml down -v`
+
+- deploy multiple replics of container: `docker stack deploy -c docker-compose.yaml service-name`
